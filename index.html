@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script>var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1} 
+  slides[slideIndex-1].style.display = "block"; 
+  setTimeout(showSlides, 1000); // Change image every 2 seconds
+}</script>
+    <title>Pet Shop</title>
+    <link rel="stylesheet" href="css/Style.css">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+</head>
+<body>
+  <div class="wrapper">
+      <div class="header">
+          <h1>Indian Pet Shop</h1>
+          <p>Contact Us: <br> 123456789</p>
+      </div>
+      <marquee style=" background-color: #333; color: white; height: 40px;font-size: 2vw; border-radius: 5px; ">Exciting offers valid this month on purchase of any pet.... Hurry Up!!!!!!!</marquee>
+      <div class="topnav">
+  <a class="active" href="#index.html" target="_top">Home</a>
+  <a href="pages/accessories.html">Accessories</a>
+  <a href="pages/dog.html">Dog</a>
+  <a href="pages/cat.html">Cat</a>
+  <a href="pages/fish.html">Fish</a>
+  <a href="pages/bird.html">Bird</a>
+  <a href="#container">Contact</a>
+  <a href="#about">About Us</a>
+</div>
+     <!-- Slideshow container -->
+<div class="slideshow-container" >
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+<img src="images/1.jpg" style="width:100%; height: 600px;">
+ </div>
+
+  <div class="mySlides fade">
+<img src="images/2.jpg" style="width:100%; height: 600px;">
+</div>
+
+  <div class="mySlides fade">
+  <img src="images/3.jpg" style="width:100%; height: 600px;">
+   </div>
+  
+  <div class="mySlides fade">
+  <img src="images/4.jpg" style="width:100%; height: 600px;">
+  </div>
+   
+    <div class="mySlides fade">
+  <img src="images/5.jpg" style="width:100%; height: 600px;">
+   </div>
+    
+    <div class="mySlides fade">
+  <img src="images/6.jpg" style="width:100%; height: 600px;">
+  </div>
+    
+    <div class="mySlides fade">
+  <img src="images/7.jpg" style="width:100%; height: 600px;">
+  </div>
+    
+    <div class="mySlides fade">
+  <img src="images/8.jpg" style="width:100%; height: 600px;">
+  </div>
+ 
+</div>
+<br>
+
+<!-- The dots/circles -->
+
+      <div id="container" style="background-color: #333; color: white;">
+           <div style="text-align:center">
+    <h2 style="color: black; font-weight: bold;">Contact Us</h2>
+    <p>Swing by for a cup of coffee, or leave us a message:</p>
+  </div>
+  <div class="row">
+    <div class="column" style="margin-top: 45px; ">
+      <img src="images/map.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+         <option value="australia">India</option>
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+      
+      </div>
+      <div id="about">
+      <p>About Us</p>We would like to introduce ourself as the most reputed, acknowledged, renowned, innovative organization in pets world. with an excellent track record & never ending list of mare than 50,000 satisfied clients all across India.
+
+Dogbazar is the pioneer to introduce Pets boutique range of clothes apparels and jewelery .We has the most exquisite range of Dog Perfumes and Cosmetic grooming products.  Especially made to fulfill minutest personal care of tour loving Pets.Our Business line caters all the Need of a prospected pet lover with all after sale services for your Dogs and cats. Our respective clients includes a Common Layman to the President of India. We have officially procured our dogs Products to Indian Army, Rajasthan Police, BSF, RPF & to various governmental & Private Institutions. IDB has become the most renowned & acclaimed brand with love of endless people. Our Brand name carries trust. We have been covered by leading premier media globally multiple times like Times of India, Hindustan Times, Asian Age, The Wall Street General, Indian Expose, Midday, Khaleej Times, Gulf Near, New York World, CNN, BBS, Aaj Tak, Star News, NDTV, Zee News, Danik Bhaskar, Punjab Kesari and Lot more. We at IDB feels proud of being the pioneers in pets sector in india.
+
+IDB has introduced the concept of keeping dogs in such a unique manner that bolstered the growth of pet families in Jaipur from odd 300 to more than 80,000 .Jaipur our home town has become famous for pet industry as well. IDB is the first pet organization in India to Acquire ISO-9001 Certification. IDB’s vivid concepts have become Landmarks for others to follow & yet making & Leading the way for a brighter pets culture in India All with your support & Love.</div>
+      <div class="footer">
+          <p>@copyright 2019</p>
+      </div>
+  </div> 
+  <script>
+    var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1} 
+  slides[slideIndex-1].style.display = "block"; 
+  setTimeout(showSlides, 1500); // Change image every 2 seconds
+}</script> 
+
+</body>
+</html>
